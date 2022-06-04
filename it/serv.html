@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Server</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body style="background:url(al.jpg)">
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+            <h1><a href="index.html" style="color: #e8e6e6;">Syrian Arab Red Crescent</a></h1>
+           
+        </div>
+      </div>
+        <nav style="background-color:#2b2a2a;">
+            <ul class="sf-menu" id="nav">
+            <li class="selected"><a href="index.html" style="color: #e8e6e6;">Home</a></li>
+            <li><a href="news.html" style="color: #e8e6e6;">News</a></li>
+            <li><a href="serv.html" style="color: #e8e6e6">Server</a></li>
+            <li><a href="Maps.html" style="color: #e8e6e6;">Maps</a></li>
+            <li><a href="about.html" style="color: #e8e6e6;">About Us</a></li>
+            <li><a href="contactus.html" style="color: #e8e6e6;">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="site_content">
+        <ul id="images">
+            <li><img src="1.png" width="600" height="300" alt="gallery_buildings_one" /></li>
+            <li><img src="2.jpg" width="600" height="300" alt="gallery_buildings_two" /></li>
+            <li><img src="3.jpg" width="600" height="300" alt="gallery_buildings_three" /></li>
+            <li><img src="4.jpg" width="600" height="300" alt="gallery_buildings_four" /></li>
+            <li><img src="5.jpg" width="600" height="300" alt="gallery_buildings_five" /></li>
+            <li><img src="6.jpg" width="600" height="300" alt="gallery_buildings_six" /></li>
+        </ul>
+      <div style="font-size: 15pt; color: #e8e6e6;">
+      <h1 style="font-size: 24pt;color: #ff0000;"> Volunteer with us </h1>
+      <h2 style="font-size: 22pt; color: #e8e6e6;">Volunteers are the lifeblood of the organization.</h2>
+          <p>
+          The organization welcomes volunteers and undergoes training courses according to the volunteer opportunities available to them.<br /><br />
+          Those wishing to volunteer can communicate with the organization's offices in all Syrian governorates.<br /><br />
+          Damascus: 0113331441<br /><br />
+          DamascusCountryside: 01156399150<br /><br />
+          Kuneitra: 0142237028<br /><br />
+          Daraa: 015231583<br /><br />
+          Swaida: 016237146<br /><br />
+          Aleppo:0214646032<br /><br />
+          Hama: 0332511841<br /><br />
+          Homs: 0312487385<br /><br />
+          Lattakia: 041476071<br /><br />
+          Tartous: 043217812<br /><br />
+          </p>
+      </div>
+    </div>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &copy; Bilal Hamwia | <a href="contactus.html" style="color: #e8e6e6;">Call Us</a> |</p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#images').kwicks({
+        max : 600,
+        spacing : 2
+      });
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>

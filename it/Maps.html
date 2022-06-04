@@ -1,0 +1,71 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Maps</title>
+  <link rel="stylesheet" type="text/css" href="sty.css">
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body style="background:url(al.jpg)">
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+            <h1><a href="index.html" style="color:#e8e6e6;">Syrian Arab Red Crescent</a></h1>
+        </div>
+      </div>
+        <nav style ="background-color:#2b2a2a;">
+            <ul class="sf-menu" id="nav">
+                <li class="selected"><a href="index.html" style="color: #e8e6e6;">Home</a></li>
+                <li><a href="news.html" style="color: #e8e6e6;">News</a></li>
+                <li><a href="serv.html" style="color: #e8e6e6">Server</a></li>
+                <li><a href="Maps.html" style="color: #e8e6e6;">Maps</a></li>
+                <li><a href="about.html" style="color: #e8e6e6;">About Us</a></li>
+                <li><a href="contactus.html" style="color: #e8e6e6;">Contact Us</a></li>
+             </ul>
+        </nav>
+    </header>
+    <div id="site_content">
+      <ul id="images">
+        <li><img src="1.png" width="600" height="300" alt="gallery_buildings_one" /></li>
+        <li><img src="2.jpg" width="600" height="300" alt="gallery_buildings_two" /></li>
+        <li><img src="3.jpg" width="600" height="300" alt="gallery_buildings_three" /></li>
+        <li><img src="4.jpg" width="600" height="300" alt="gallery_buildings_four" /></li>
+        <li><img src="5.jpg" width="600" height="300" alt="gallery_buildings_five" /></li>
+        <li><img src="6.jpg" width="600" height="300" alt="gallery_buildings_six" /></li>
+      </ul>
+      <div style="text-align: left; width: 670px; font-size: 120%;">
+          <h1 style="font-size: 24pt; color: #e8e6e6;">Location</h1>
+          <p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.447859409513!2d36.284388814713445!3d33.515739680755324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e735b96eb059%3A0x10f20e9670817291!2zU3lyaWFuIEFyYWIgUmVkIENyZXNjZW50LSBIUSBfINin2YTZh9mE2KfZhCDYp9mE2KPYrdmF2LEg2KfZhNi52LHYqNmKINin2YTYs9mI2LHZiiAtINin2YTZhdix2YPYsiDYp9mE2LHYptmK2LPZig!5e0!3m2!1sen!2s!4v1492093623581" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+       
+              
+          <footer>
+              <p style="color: #e8e6e6;">Copyright &copy; Bilal Hamwia | <a href="contactus.html" style="color: #e8e6e6;">Call Us</a> |</p>
+          </footer>
+      </div>
+        </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#images').kwicks({
+        max : 600,
+        spacing : 2
+      });
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>

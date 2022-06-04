@@ -1,0 +1,71 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>About us</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body style="background:url(al.jpg)">
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+            <h1><a href="index.html" style="color:#e8e6e6">Syrian Arab Red Crescent </a></h1>
+        </div>
+      </div>
+        <nav style="background-color:#2b2a2a;">
+            <ul class="sf-menu" id="nav">
+                <li class="selected"><a href="index.html" style="color: #e8e6e6;">Home</a></li>
+                <li><a href="news.html" style="color: #e8e6e6;">News</a></li>
+                <li><a href="serv.html" style="color: #e8e6e6">Server</a></li>
+                <li><a href="Maps.html" style="color: #e8e6e6;">Maps</a></li>
+                <li><a href="about.html" style="color: #e8e6e6;">About Us</a></li>
+                <li><a href="contactus.html" style="color: #e8e6e6;">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="site_content">
+        <ul id="images">
+            <li><img src="1.png" width="600" height="300" alt="gallery_buildings_one" /></li>
+            <li><img src="2.jpg" width="600" height="300" alt="gallery_buildings_two" /></li>
+            <li><img src="3.jpg" width="600" height="300" alt="gallery_buildings_three" /></li>
+            <li><img src="4.jpg" width="600" height="300" alt="gallery_buildings_four" /></li>
+            <li><img src="5.jpg" width="600" height="300" alt="gallery_buildings_five" /></li>
+            <li><img src="6.jpg" width="600" height="300" alt="gallery_buildings_six" /></li>
+        </ul>
+      <div style="font-size:15pt;">
+         
+              <h1 style="font-size: 24pt; color: #e8e6e6;">About Us</h1>
+          <p style="color: #e8e6e6;">
+          The Syrian Arab Red Crescent is a humanitarian organization with financial and administrative independence with a legal personality.<br/>The organization was established by Presidential Decree No. 540 of 1942 and Decree No. 117 of 1966 regulating the work of the Organization. <br />Recognized by the International Committee of the Red Cross in Geneva under Circular No. 375 of 1946 and is a member of the International Movement, the International Federation of Red Cross and Red Crescent Societies in Geneva and the Arab General Secretariat of the Arab Red Cross and Red Crescent Societies.<br />It has a main center and 14 branches distributed in all governorates, in addition to 75 branch divisions.
+          </p>
+      </div>
+    </div>
+    <footer>
+      <p style="color: #e8e6e6">Copyright &copy; Bilal Hamwia | <a href="contactus.html" style="color: #e8e6e6;">Call Us</a> |</p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#images').kwicks({
+        max : 600,
+        spacing : 2
+      });
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
